@@ -1,0 +1,71 @@
+#skills {
+  width: 100vw;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.skillTitle {
+  display: inline-block;
+  font-size: 3rem;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+.skillDesk {
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 50rem;
+  padding: 0 2rem;
+  line-height: 30px;
+}
+.htmlIcon,
+.cssIcon,
+.jsIcon,
+.reactJsIcon,
+.bootstrapIcon,
+.githubIcon,
+.figmaIcon {
+  font-size: 4rem;
+}
+.skillBars {
+  /* background-color: green; */
+  width: 100vw;
+  max-width: 70rem;
+  margin: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.skillBar {
+  width: 100px;
+}
+.skillName {
+  font-size: 20px;
+  width: 100px;
+}
+@media screen and (max-width: 768px) {
+  .skillBars {
+    margin: 1rem;
+  }
+  .skillBar {
+    margin: 1rem 0;
+  }
+  .skillName {
+    font-size: 16px;
+  }
+  .htmlIcon,
+  .cssIcon,
+  .jsIcon,
+  .reactJsIcon,
+  .bootstrapIcon,
+  .githubIcon,
+  .figmaIcon {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,76 @@
+#home {
+  height: calc(100vh - 6rem);
+  width: 100vw;
+  max-width: 90rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.bg {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+}
+.introContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hello {
+  font-size: 1.75rem;
+  font: 100;
+}
+.introName {
+  color: chartreuse;
+}
+.introPara {
+  font-size: medium;
+  font-weight: 200;
+  line-height: 25px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.btn {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: 0.3s ease-in;
+}
+.btn:hover {
+  background-color: chartreuse;
+  color: white;
+}
+
+@media screen and (max-width: 840px) {
+  .introContent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 680px) {
+  .bg {
+    opacity: 0.4;
+    right: -10vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bg {
+    right: -30vw;
+  }
+}

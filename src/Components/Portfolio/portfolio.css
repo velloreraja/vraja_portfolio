@@ -1,0 +1,89 @@
+#portfolio {
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 2rem;
+  margin: 0 auto;
+}
+.portTitle {
+  margin: 3rem 0 1rem 0;
+  font-size: 3rem;
+}
+.portDesk {
+  margin: 0 0 1rem 0;
+  font-weight: 300;
+  font-size: 1rem;
+  max-width: 55rem;
+}
+.portImages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 65rem;
+}
+.portImageWrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.portImageWrapper > .portImgTitle {
+  position: absolute;
+  inset: 0;
+  color: white;
+  font-size: 1.5rem;
+  left: 0.5rem;
+  top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(49, 49, 49, 0.4);
+  width: 300px;
+  height: 20rem;
+  transform: scale(1.1);
+  /* border-radius:10px; */
+}
+/* .portImgTitle{
+    color: white;  
+    font-size: 2rem;
+} */
+.portlink .portImage {
+  width: 300px;
+  height: 20rem;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  margin: 0.5rem;
+  border-radius: 10px;
+}
+.portImageWrapper > .portlink .portImage,
+.portImageWrapper > .portImgTitle {
+  transition: 200ms ease-in-out;
+}
+.portImageWrapper > .portImgTitle.fade {
+  opacity: 0;
+}
+
+.portImageWrapper:hover > .portImgTitle.fade {
+  opacity: 1;
+}
+
+.portImageWrapper:hover > .portlink .portImage.blur {
+  filter: blur(3px);
+}
+
+.portImageWrapper:hover > .portlink .portImage.zoom {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 630px) {
+  .portlink .portImage {
+    height: 52vw;
+  }
+}

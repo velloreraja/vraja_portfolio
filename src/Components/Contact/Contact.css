@@ -1,0 +1,32 @@
+#contact {
+  min-height: calc(100vh - 7rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 4rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactPageTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.clientDesc {
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 45rem;
+}
+.clientImgs {
+  display: flex;
+  margin: 1.5rem 0;
+}
+.clientimg {
+  object-fit: cover;
+  width: 33%;
+  min-width: 9rem;
+  height: 150px;
+  margin: 1rem 1rem;
+  border: 2px solid rgb(255, 255, 255);
+}
