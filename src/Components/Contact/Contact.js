@@ -24,18 +24,28 @@ const Contact = () => {
           />
         </div>
       </div>
-      <div id="contact-form">
-             <h1 className="contact-form-title">
-              Contact Me
-             </h1>
-             <span className="contanctDesc">Please fill out the form below to discus any work opportunities.</span>
-             <form className="contant-form">
-              <input type="text" className="name" placeholder="Enter Your Name" />
-              <input type="email" className="email" placeholder="Enter Your Email" />
-              <textarea name="message" className="message"  rows="5" placeholder="Enter Your Message">
-              </textarea>
-              <button type="submit" value="Send" className="submitbtn">Submit</button>
-             </form>
+      <div id="contact-form-details">
+        <h1 className="contactPageTitle">Contact Me</h1>
+        <span className="contactDesc">
+          Please fill out the form below to discus any work opportunities.
+        </span>
+        <form className="contact-form">
+          <input type="text" className="name" placeholder="Enter Your Name" />
+          <input
+            type="email"
+            className="email"
+            placeholder="Enter Your Email"
+          />
+          <textarea
+            name="message"
+            className="message"
+            rows="5"
+            placeholder="Enter Your Message"
+          ></textarea>
+          <button type="submit" value="Send" className="submitbtn">
+            Submit
+          </button>
+        </form>
       </div>
     </section>
   );
