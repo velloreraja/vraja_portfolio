@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../Contact/Contact.css";
 import Google from "../../assets/images/google.png";
 import Amazon from "../../assets/images/amazon.png";
 import Aertrip from "../../assets/images/aertrip.jpg";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_qyofe24", "template_1h2tb9g", form.current, {
+        publicKey: "suFWmZMu1LsPQT5k5",
+      })
+      .then(
+        () => {
+          e.target.reset();
+          alert("SUCCESS!");
+
+        },
+        (error) => {
+          alert("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <section id="contact">
       <div id="clients">
@@ -29,11 +49,17 @@ const Contact = () => {
         <span className="contactDesc">
           Please fill out the form below to discus any work opportunities.
         </span>
-        <form className="contact-form">
-          <input type="text" className="name" placeholder="Enter Your Name" />
+        <form className="contact-form" ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            className="name"
+            name="user_name"
+            placeholder="Enter Your Name"
+          />
           <input
             type="email"
             className="email"
+            name="user_email"
             placeholder="Enter Your Email"
           />
           <textarea
