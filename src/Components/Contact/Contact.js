@@ -12,7 +12,7 @@ const Contact = () => {
 
     emailjs
       .sendForm("service_qyofe24", "template_1h2tb9g", form.current, {
-        publicKey: "suFWmZMu1LsPQT5k5",
+        publicKey: "1IjwxVmzPxWqLznugaBK8",
       })
       .then(
         () => {
@@ -53,13 +53,13 @@ const Contact = () => {
           <input
             type="text"
             className="name"
-            name="user_name"
+            name="your_name"
             placeholder="Enter Your Name"
           />
           <input
             type="email"
             className="email"
-            name="user_email"
+            name="your_email"
             placeholder="Enter Your Email"
           />
           <textarea
