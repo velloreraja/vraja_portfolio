@@ -11,14 +11,13 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_qyofe24", "template_1h2tb9g", form.current, {
-        publicKey: "1IjwxVmzPxWqLznugaBK8",
+      .sendForm("service_pql0hud", "template_v8u1iqj", form.current, {
+        publicKey: "5VgIGJXdy3iQskub2",
       })
       .then(
         () => {
           e.target.reset();
           alert("SUCCESS!");
-
         },
         (error) => {
           alert("FAILED...", error.text);
@@ -54,13 +53,13 @@ const Contact = () => {
             type="text"
             className="name"
             name="your_name"
-            placeholder="Enter Your Name"
+            placeholder="Your Name"
           />
           <input
             type="email"
             className="email"
             name="your_email"
-            placeholder="Enter Your Email"
+            placeholder="Your Email"
           />
           <textarea
             name="message"
