@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8de1af1b.css",
+    "main.js": "/static/js/main.19fda358.js",
+    "static/media/po3.jpg": "/static/media/po3.d176e4ebdb44bcdb6c39.jpg",
+    "static/media/raja.png": "/static/media/raja.ac767fecb946dd2ed3c7.png",
+    "static/media/po1.jpg": "/static/media/po1.2cafd222a867c39e3513.jpg",
+    "static/media/po2.jpg": "/static/media/po2.b30e5080dc928ce2bbd8.jpg",
+    "static/media/po4.jpg": "/static/media/po4.d252f2928a5baec5ab81.jpg",
+    "static/media/po5.jpg": "/static/media/po5.244e5931e7ffe3a25e7e.jpg",
+    "static/media/po6.jpg": "/static/media/po6.89eb653d401c1f1b2f16.jpg",
+    "static/media/amazon.png": "/static/media/amazon.dbeab6c96e03d725e0d0.png",
+    "static/media/RAJ LOGO.png": "/static/media/RAJ LOGO.cc9fad27f51bc165272b.png",
+    "static/media/hamb.png": "/static/media/hamb.f229d41939a8b217c11b.png",
+    "static/media/aertrip.jpg": "/static/media/aertrip.e9073e51d4d80bd4854b.jpg",
+    "index.html": "/index.html",
+    "main.8de1af1b.css.map": "/static/css/main.8de1af1b.css.map",
+    "main.19fda358.js.map": "/static/js/main.19fda358.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8de1af1b.css",
+    "static/js/main.19fda358.js"
+  ]
+}
