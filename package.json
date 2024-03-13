@@ -2,7 +2,7 @@
   "name": "rajavellore.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.io/velloreraja/vraja_portfolio.git",
+  "homepage": "https://velloreraja.github.io/vraja_portfolio.git",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
