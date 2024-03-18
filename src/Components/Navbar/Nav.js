@@ -39,25 +39,36 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-40}
+          offset={-10}
           duration={500}
           className="desktopMenuListItem"
         >
           Porfolio
         </Link>
         <Link
-          to="contact"
+          to="clients"
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-72}
+          duration={500}
+          className="desktopMenuListItem"
+        >
+          Clients
+        </Link>
+        <Link
+          to="contact-form-details"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-71}
           duration={500}
           className="desktopMenuListItem"
         >
           Contact
         </Link>
       </div>
-      <button className="desktopResumeBtn">Resume</button>
+      <a href="https://drive.google.com/file/d/1BPOars2RYcjO7G2wiMQeF1vJujzgX21A/view?usp=drivesdk" target="blank"><button className="desktopResumeBtn">Resume</button></a>
 
 
       <img className="mobmenu" src={HBMenu} alt="menu"onClick={() => setShowMenu(!showMenu)}/>
@@ -96,7 +107,7 @@ const Nav = () => {
           Porfolio
         </Link>
         <Link
-          to="contact"
+          to="clients"
           activeClass="active"
           spy={true}
           smooth={true}
@@ -111,12 +122,16 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={400}
           duration={500}
           className="ListItem" onClick={() => setShowMenu(!showMenu)}
         >
           Contact
         </Link>
+ 
+        
+        <a href="https://drive.google.com/file/d/1BPOars2RYcjO7G2wiMQeF1vJujzgX21A/view?usp=drivesdk" className=" ListItem" style={{color:'yellow',fontSize:"25px"}} onClick={() => setShowMenu(!showMenu)} target="blank">Resume</a>
+  
       </div>
 
 
