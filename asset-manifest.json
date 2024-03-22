@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vraja_portfolio/static/css/main.56354cbf.css",
-    "main.js": "/vraja_portfolio/static/js/main.86519ece.js",
+    "main.css": "/vraja_portfolio/static/css/main.076bde6c.css",
+    "main.js": "/vraja_portfolio/static/js/main.3bc4e96f.js",
     "static/media/po3.jpg": "/vraja_portfolio/static/media/po3.d176e4ebdb44bcdb6c39.jpg",
     "static/media/raja.png": "/vraja_portfolio/static/media/raja.ac767fecb946dd2ed3c7.png",
     "static/media/po1.jpg": "/vraja_portfolio/static/media/po1.2cafd222a867c39e3513.jpg",
@@ -14,11 +14,11 @@
     "static/media/hamb.png": "/vraja_portfolio/static/media/hamb.f229d41939a8b217c11b.png",
     "static/media/aertrip.jpg": "/vraja_portfolio/static/media/aertrip.e9073e51d4d80bd4854b.jpg",
     "index.html": "/vraja_portfolio/index.html",
-    "main.56354cbf.css.map": "/vraja_portfolio/static/css/main.56354cbf.css.map",
-    "main.86519ece.js.map": "/vraja_portfolio/static/js/main.86519ece.js.map"
+    "main.076bde6c.css.map": "/vraja_portfolio/static/css/main.076bde6c.css.map",
+    "main.3bc4e96f.js.map": "/vraja_portfolio/static/js/main.3bc4e96f.js.map"
   },
   "entrypoints": [
-    "static/css/main.56354cbf.css",
-    "static/js/main.86519ece.js"
+    "static/css/main.076bde6c.css",
+    "static/js/main.3bc4e96f.js"
   ]
 }
