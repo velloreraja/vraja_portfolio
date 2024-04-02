@@ -9,9 +9,13 @@
   align-items: center;
   justify-content: center;
 }
+
+
+
 #clients{
   display: flex;
   flex-direction: column;
+  margin: 3rem;
 }
 .contactPageTitle {
   font-size: 3rem;

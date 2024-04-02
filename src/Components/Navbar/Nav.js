@@ -28,7 +28,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-40}
+          offset={-60}
           duration={500}
           className="desktopMenuListItem"
         >
@@ -50,7 +50,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-72}
+          offset={-108}
           duration={500}
           className="desktopMenuListItem"
         >
@@ -61,7 +61,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-71}
+          offset={-151}
           duration={500}
           className="desktopMenuListItem"
         >
@@ -89,7 +89,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-40}
+          offset={-60}
           duration={500}
           className="ListItem" onClick={() => setShowMenu(!showMenu)}
         >
@@ -100,7 +100,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-40}
+          offset={-10}
           duration={500}
           className="ListItem" onClick={() => setShowMenu(!showMenu)}
         >
@@ -111,7 +111,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-108}
           duration={500}
           className="ListItem" onClick={() => setShowMenu(!showMenu)}
         >
@@ -122,7 +122,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={400}
+          offset={700}
           duration={500}
           className="ListItem" onClick={() => setShowMenu(!showMenu)}
         >
