@@ -42,10 +42,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <h2 className="portTitle">My Portfolio</h2>
       <span className="portDesk">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptas
-        ipsa, repellat libero cupiditate doloremque officia earum ratione
-        incidunt fugiat?Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Repellat, voluptatum?
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo itaque repudiandae asperiores iste molestias ducimus!
       </span>
       <div className="portImages">
         <div className="portImageWrapper">
