@@ -17,9 +17,18 @@ const Home = () => {
           <br /> in developing visually appealing and user friendly websites.
         </p>
         <Link>
-          <button className="btn" onClick={() =>{
-        document.getElementById("contact").scrollIntoView({behavior: "smooth"});
-      }}>Hire Me</button>
+          <button
+            className="btn"
+            
+            onClick={() => {
+              document
+                .getElementById("contact-form-details")
+                .scrollIntoView({ behavior: "smooth"});
+            
+            }}
+          >
+            Hire Me
+          </button>
         </Link>
       </div>
 

@@ -1,0 +1,17 @@
+.to-top {
+  background-color: white;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  right: 180px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.to-top:hover {
+  background-color: rgb(49, 49, 49);
+}

@@ -122,7 +122,7 @@ const Nav = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={700}
+          offset={850}
           duration={500}
           className="ListItem" onClick={() => setShowMenu(!showMenu)}
         >
