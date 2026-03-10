@@ -68,7 +68,7 @@ const Nav = () => {
           Contact
         </Link>
       </div>
-      <a href="https://drive.google.com/file/d/1BPOars2RYcjO7G2wiMQeF1vJujzgX21A/view?usp=drivesdk" target="blank"><button className="desktopResumeBtn">Resume</button></a>
+      <a href="https://drive.google.com/drive/folders/1RyOLEVFxizBJwIE2LQ6ULKdm5HzOab6X?usp=sharing" target="blank"><button className="desktopResumeBtn">Resume</button></a>
 
 
       <img className="mobmenu" src={HBMenu} alt="menu"onClick={() => setShowMenu(!showMenu)}/>
@@ -130,7 +130,7 @@ const Nav = () => {
         </Link>
  
         
-        <a href="https://drive.google.com/file/d/1BPOars2RYcjO7G2wiMQeF1vJujzgX21A/view?usp=drivesdk" className=" ListItem" style={{color:'yellow',fontSize:"25px"}} onClick={() => setShowMenu(!showMenu)} target="blank">Resume</a>
+        <a href="https://drive.google.com/drive/folders/1RyOLEVFxizBJwIE2LQ6ULKdm5HzOab6X?usp=sharing" className=" ListItem" style={{color:'yellow',fontSize:"25px"}} onClick={() => setShowMenu(!showMenu)} target="blank">Resume</a>
   
       </div>
 
